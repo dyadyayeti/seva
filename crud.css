@@ -1,0 +1,128 @@
+.body {
+	background:#969696;
+
+}
+
+.block2 {
+    display: inline-block;
+    overflow: hidden; /*чтобы html в div не выходил за ширину*/
+    text-align: center;
+    position: relative;
+    top:auto;
+    border-radius: 30px;
+    transform: scale(1);
+    opacity: 0.7;
+    background-color: #ffffff;
+    border-width:1;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+    width: 450px;
+    height: 450px;
+        
+
+}
+.block2:hover {
+    transition: 0.4s all;
+   transform: scale(0.9) scale(1.1);
+    opacity: 1.0;
+}
+
+
+.block3 {
+    display: inline-block;
+    overflow: hidden; /*чтобы html в div не выходил за ширину*/
+    text-align: center;
+	transform: scale(1);
+    border-radius: 30px;
+    opacity: 0.7;
+    background-color:#ffffff;
+    border-width:1;
+    border-style: solid;
+    width: 450px;
+    height: 450px;
+    
+
+}
+
+.block3:hover {
+	transition: 0.4s all;
+	transform: scale(0.9) scale(1.1);
+	opacity: 1.0;
+}
+.block4 {
+    display: inline-block;
+
+    overflow: hidden; /*чтобы html в div не выходил за ширину*/
+  
+
+    opacity: 0.7;
+    transform: scale(1);
+    text-align: center;
+    background-color: #ffffff;
+    background-size: cover;
+    overflow: scroll;
+    border-radius: 6px;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+    width: 690px;
+    height: 450px;
+    
+
+
+}
+.block4:hover {
+    transition: 0.4s all;
+    transform: scale(0.9) scale(1.1);
+    opacity: 1.0;
+}
+
+}
+.text {
+    font: 12pt sans-serif; 
+    
+    font-size: 35px;
+   
+}
+.btn {
+    transform: scale();(0deg);
+    opacity: 0.5;
+    background-color: #fae120;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+.btn:hover {
+    transition: 0.2s all;
+    transform: scale(0.9) scale(1.3);
+    opacity: 1.0;
+}
+
+.btn1 {
+    transform: rotate(0deg);
+    font-size:20px;
+    background-color: #f08484;
+    width: 50px;
+    height: 60px;
+}
+
+.btn1:hover {
+    transition: 0.4s all;
+    transform: rotate(180deg); scale(1.3);
+    opacity: 1.0;
+}
+
+.btn2 {
+    transform: rotate(0deg);
+    
+    font-size:20px;
+    background-color:#84aff0;
+    width: 50px;
+    height: 60px;
+}
+
+.btn2:hover {
+    transition: 0.4s all;
+    transform: rotate(180deg); scale(1.3);
+    opacity: 1.0;
+}
